@@ -14,6 +14,7 @@ header{
 	width: 100%;
 	position: fixed;
 	text-align: center;
+	z-index: 1;
 }
 @media(min-width: 320px) and (max-width: 450px){
 
@@ -205,8 +206,8 @@ a:hover{
 	transition: all 300ms ease-in-out;	
 }
 img:hover{
-	transform: scale(1.2);
-	box-shadow: 3px 3px 5px #000;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 20px #000;
 }
 .texto-grid{
 	font-family: Galano, Arial, sans-serif;
